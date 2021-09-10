@@ -1,0 +1,54 @@
+<!DOCTYPE HYML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lista de Tarefas a fazer / To Do List</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+		<link rel="stylesheet" href="Assets/CSS/ToDo.css" />
+		
+		<script src="Assets/JS/ToDo.js"></script>
+	</head>
+	<body onload = "initialization()">
+		<h4>To Do List</h4>
+		<form name="formulario" id="formulario">
+			<h5>Informações da tarefa</h5>
+			<label>Descrição da Tarefa:
+			<input id="tarefa" name="tarefa" type="text">
+			</label>
+			<label>Situação Atual:
+			<input type="radio" id="a-fazer" name="situacao" value="Não Iniciado" checked>
+			<label for="a-fazer">NÃO INICIADO</label>
+			<input type="radio" id="pendente" name="situacao" value="Pendente">
+			<label for="pendente">PENDENTE</label>
+			<input type="radio" id="concluido" name="situacao" value="Concluido"> 
+			<label for="concluido">CONCLUÍDO</label>
+			</label>
+			<br>
+			<label>Data Prevista de Conclusão:
+			<input id="termino" name="termino" type="date" value="2021-01-01">
+			</label>
+			<input type="button" id="addbtn" value="Adicionar">
+			<input type="button" id="clearbtn" value="Limpar">
+		</form>
+		<h5>Lista de Tarefas</h5>
+		<table class="bordered striped centered" id="tabelaTarefasParaConcluir">
+			<tr>
+				<th>Descrição</th>
+				<th>Situação da Tarefa</th>
+				<th>Data Previsão de Conclusão</th>
+				<th></th>
+			</tr>
+		</table>
+		<h5>Tarefas Concluídas</h5>
+		<table class="bordered striped centered" id="tabelaTarefasConcluidas">
+			<tr>
+				<th>Descrição</th>
+				<th>Situação da Tarefa</th>
+				<th>Data de Conclusão</th>
+				<th></th>
+			</tr>
+		</table>
+	</body>
+</html>

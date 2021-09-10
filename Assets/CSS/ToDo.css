@@ -1,0 +1,31 @@
+html{
+    background-color: rgb(233, 233, 233);
+}
+
+input[type=button]#editbtn{
+    visibility: hidden;
+}
+
+form#formulario{
+    margin: 0px 20px 0px 20px;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+table.centered{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label{
+    font-size: 90%;
+}
+

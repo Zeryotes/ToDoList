@@ -1,0 +1,10 @@
+JavaScript:
+Adicionar tarefa - OK
+Editar tarefa - X
+Excluir/remover tarefa - OK
+Concluir tarefa - X
+
+"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio"
+
+CSS:
+https://www.devmedia.com.br/materialize-css-criando-tabelas-responsivas-e-com-estilos/38025
